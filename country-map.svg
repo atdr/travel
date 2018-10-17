@@ -78,10 +78,9 @@
  */
 .circle
 {
-   opacity:0;
-   fill:#b9b9b9;
+   opacity:0.5;
    fill-opacity:1;
-   stroke:black;
+   stroke:#b8b8b8;
    stroke-width:0.99986893;
    stroke-miterlimit:3.97446823;
    stroke-dasharray:none;
@@ -93,7 +92,6 @@
  */
 .land
 {
-   fill: #b9b9b9;
    fill-opacity: 1;
    stroke: #ffffff;
    stroke-opacity: 1;
@@ -103,16 +101,40 @@
 }
 
 /*
- * Additional style rules
+ * Personal styling
  *
- * The following are examples of colouring countries.  You can substitute these with your own styles to colour the countries on the map.
- *
- * Color a few countries:
- *
- * .gb, .au, .nc
- * {
- *    fill:       #ff0000;
- * }
+ * Using colour rule from http://colorbrewer2.org/
+ * 
+ * Level hierarchy:
+ *	1	never visited
+ *	2	transited
+ *	3	stayed
+ *	4	lived
+ */
+ 
+/* never visited */
+.land, .circle
+{
+	fill: #eff3ff;
+}
+
+/* transited */
+.fi
+{
+	fill: #bdd7e7;
+}
+
+/* stayed */
+.cy, .fr, .de, .it, .at, .be, .sg, .cn, .au, .us, .ca, .es, .pt, .gr, .hu, .sg, .va, .mc
+{
+	fill: #6baed6;
+}
+
+/* lived */
+.gb
+{
+ 	fill:#2171b5;
+}
  *
  * Color a few small country circles (and the countries):
  *
