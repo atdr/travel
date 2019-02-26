@@ -65,19 +65,12 @@
      type="text/css"
      id="style_css_sheet">
 /*
- * Below are Cascading Style Sheet (CSS) definitions in use in this file,
- * which allow easily changing how countries are displayed.
- *
- */
-
-/*
  * Circles around small countries
  *
  * Change opacity to 1 to display all circles.
  *
  */
-.circle
-{
+.circle {
    opacity:0.5;
    fill-opacity:1;
    stroke:#b8b8b8;
@@ -90,8 +83,7 @@
 /*
  * Land
  */
-.land
-{
+.land {
    fill-opacity: 1;
    stroke: #ffffff;
    stroke-opacity: 1;
@@ -113,45 +105,30 @@
  */
  
 /* never visited */
-.land, .circle
-{
+.land, .circle {
 	fill: #eff3ff;
 }
 
 /* transited */
-.fi
-{
+.fi {
 	fill: #bdd7e7;
 }
 
 /* stayed */
-.cy, .fr, .de, .it, .at, .be, .sg, .cn, .au, .us, .ca, .es, .pt, .gr, .hu, .sg, .va, .mc
-{
+.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hu, .it, .mc, .pt, .sg, .us, .va {
 	fill: #6baed6;
 }
 
 /* lived */
-.gb
-{
- 	fill:#2171b5;
+.gb {
+ 	fill: #2171b5;
 }
- *
- * Color a few small country circles (and the countries):
- *
- * .ms, .ky
- * {
- *    opacity:    1;
- *    fill:       #ff0000;
- * }
- *
- */
 
 /*
  * Antarctica
  */
 
-.aq
-{
+.aq {
    fill:#e6e6e6;
 }
 
@@ -159,8 +136,7 @@
  * Sea
  */
 
-.ocean
-{
+.ocean {
    opacity: 1;
    color: #000000;
    fill:white;
@@ -183,8 +159,7 @@
    overflow:visible;
 }
 
-.lake
-{
+.lake {
    fill:#ffffff;
    fill-opacity:1;
    stroke:#ffffff;
