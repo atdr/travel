@@ -114,14 +114,19 @@
 	fill: #bdd7e7;
 }
 
-/* stayed */
-.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hu, .it, .mc, .pt, .sg, .us, .va {
+/* visited */
+.mc, .va {
 	fill: #6baed6;
+}
+
+/* stayed */
+.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hu, .it, .pt, .sg, .us {
+	fill: #3182bd;
 }
 
 /* lived */
 .gb, .ch {
- 	fill: #2171b5;
+ 	fill: #08519c;
 }
 
 /*
