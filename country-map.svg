@@ -120,7 +120,7 @@
 }
 
 /* stayed */
-.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hu, .it, .pt, .sg, .us {
+.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hk, .hu, .it, .pt, .sg, .us {
 	fill: #3182bd;
 }
 
