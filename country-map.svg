@@ -115,12 +115,12 @@
 }
 
 /* visited */
-.mc, .va {
+.li, .mc, .va {
 	fill: #6baed6;
 }
 
 /* stayed */
-.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hk, .hu, .it, .pt, .sg, .us {
+.at, .au, .be, .ca, .cn, .cy, .de, .es, .fr, .gr, .hk, .hu, .it, .nl, .pt, .sg, .us {
 	fill: #3182bd;
 }
 
