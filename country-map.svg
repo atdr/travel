@@ -110,7 +110,7 @@
 }
 
 /* transited */
-.fi {
+.fi, .qa {
 	fill: #bdd7e7;
 }
 
